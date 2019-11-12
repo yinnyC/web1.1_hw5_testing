@@ -6,7 +6,7 @@ class StringFunctionTests(unittest.TestCase):
     def test_greeting(self):
         """Tests for greet_by_name"""
         self.assertEqual(greet_by_name('Jeremy'), 'Hello, Jeremy!')
-        self.assertEqual(greet_by_name('Dani'), 'Hello Dani!')
+        self.assertEqual(greet_by_name('Dani'), 'Hello, Dani!')
 
     def test_reverse(self):
         """Test reversing a string."""
