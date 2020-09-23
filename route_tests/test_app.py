@@ -4,6 +4,7 @@ from .app import app
 
 #######################
 # Index Tests
+# (there's only one here because there is only one possible scenario!)
 #######################
 
 def test_index():
@@ -29,6 +30,10 @@ def test_color_results_blue():
     expected_page_text = 'Wow, blue is my favorite color, too!'
     assert expected_page_text == result_page_text
 
+def test_color_results_scenario1():
+    # TODO: Fill in this function to test the color_results route under 
+    # a specific scenario.
+    pass
 
 def test_color_results_edgecase1():
     # TODO: Fill in this function to test the color_results route under 
@@ -48,6 +53,16 @@ def test_froyo_results_scenario1():
 def test_froyo_results_scenario2():
     # TODO: Fill in this function to test the show_froyo_results route under a
     # specific scenario.
+    pass
+
+def test_froyo_results_edgecase1():
+    # TODO: Fill in this function to test the show_froyo_results route under a
+    # specific EDGE CASE scenario.
+    pass
+
+def test_froyo_results_edgecase2():
+    # TODO: Fill in this function to test the show_froyo_results route under a
+    # specific EDGE CASE scenario.
     pass
 
 
