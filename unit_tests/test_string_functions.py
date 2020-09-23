@@ -13,49 +13,49 @@ def test_greeting_jeremy():
     actual = greet_by_name('Jeremy')
 
     # Step 4: Compare expected & actual outcomes. If they match, the test passes
-    assert expected == actual
+    assert actual == expected
 
 def test_greeting_dani():
     """Test for greet_by_name"""
     expected = 'Hello, Dani!'
     actual = greet_by_name('Dani')
-    assert expected == actual
+    assert actual == expected
 
-def test_reverse_1():
-    """Test reversing a string."""
+def test_reverse_long():
+    """Test reversing a long string."""
     expected = ''
     actual = ''
-    assert expected == actual
+    assert actual == expected
 
-def test_reverse_2():
-    """Test reversing a string."""
+def test_reverse_short():
+    """Test reversing a short string."""
     expected = ''
     actual = ''
-    assert expected == actual
+    assert actual == expected
 
-def test_reverse_words_1():
-    """Test reversing words in a string."""
+def test_reverse_words_long():
+    """Test reversing words in a long string."""
     expected = ''
     actual = ''
-    assert expected == actual
+    assert actual == expected
 
-def test_reverse_words_2():
-    """Test reversing words in a string."""
+def test_reverse_words_short():
+    """Test reversing words in a short string."""
     expected = ''
     actual = ''
-    assert expected == actual
+    assert actual == expected
 
-def test_sarcastic_1():
-    """Test sarcastic-ifying a string."""
+def test_sarcastic_long():
+    """Test sarcastic-ifying a long string."""
     expected = ''
     actual = ''
-    assert expected == actual
+    assert actual == expected
 
-def test_sarcastic_2():
-    """Test sarcastic-ifying a string."""
+def test_sarcastic_short():
+    """Test sarcastic-ifying a short string."""
     expected = ''
     actual = ''
-    assert expected == actual
+    assert actual == expected
 
 # run the tests
 if __name__ == '__main__':
