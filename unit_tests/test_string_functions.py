@@ -1,13 +1,13 @@
 import pytest
 
-from string_functions import *
+from .string_functions import *
 
 def test_greeting_jeremy():
     """Test for greet_by_name"""
     # Step 1: Choose a scenario - here I'm choosing name='Jeremy'
 
     # Step 2: Decide what the expected outcome is for the scenario
-    expected = 'Hello, Jeremya!'
+    expected = 'Hello, Jeremy!'
 
     # Step 3: Call the function being tested to get its actual output
     actual = greet_by_name('Jeremy')
