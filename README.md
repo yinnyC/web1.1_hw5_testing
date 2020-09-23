@@ -54,7 +54,7 @@ For edge cases, make sure you pick a scenario at the "edge" of possible scenario
 
 ## Stretch Challenges
 
-Write some tests for your Homework 3 or Homework 4 code. See if you can "mock" out the API calls & database operations using the Pytest mocker library.
+Write some tests for your Homework 3 or Homework 4 code. See if you can "mock" out the API calls & database operations using the [Pytest mocker](https://pypi.org/project/pytest-mock/) plugin.
 
 ## Submission
 
