@@ -11,7 +11,7 @@ git clone https://github.com/Make-School-Labs/Flask-Testing-Starter.git flask-te
 Run the tests:
 
 ```bash
-python3 string_tests.py
+pytest
 ```
 
 Then write more tests!
